@@ -1,4 +1,4 @@
-    const genbtn = document.getElementById('inputbtn')
+const genbtn = document.getElementById('inputbtn')
 const length = document.getElementById('length')
 let passlen;
 const outputs = document.querySelectorAll('.pass')
@@ -9,6 +9,10 @@ console.log(genbtn)
 
 genbtn.addEventListener('click', ()=>{
     passlen = parseInt(length.value)
+    if(isNaN(passlen)||passlen<=4||passlen>17) {
+    alert('Password Length Should Be Greater than 4 And Smaller Than 18');  
+    return;      
+    }
     for (let i=0; i<5; i++) {
     genpass = '';
         for (let j=0; j<passlen; j++) {
