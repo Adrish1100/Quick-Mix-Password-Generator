@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#12121a;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    width:90%;
+    margin:30px auto;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    color:#d600ff;
+    margin-bottom:10px;
+}
+
+header p{
+    margin-bottom:10px;
+}
+
+header h2{
+    color:#ffffff;
+}
+
+.card{
+    width:90%;
+    margin:20px auto;
+    padding:20px;
+    border:2px solid #d600ff;
+    border-radius:15px;
+    background:#1b1b26;
+}
+
+.card h2{
+    margin-bottom:15px;
+    color:#d600ff;
+}
+
+.card p{
+    line-height:24px;
+}
+
+.person{
+    width:45%;
+    display:inline-block;
+    vertical-align:top;
+    margin:10px;
+}
+
+.person h3{
+    margin-bottom:10px;
+}
+
+.person ul{
+    margin-left:20px;
+}
+
+.person li{
+    margin-bottom:8px;
+}
+
+.card ul{
+    margin-left:20px;
+}
+
+.card li{
+    margin-bottom:8px;
+}
+::marker{
+    color:#d600ff;
+}
+
+#proceed{
+    display:block;
+    width:90%;
+    margin:30px auto;
+    padding:15px;
+    border: 4px solid #a000cc;
+    border-radius:12px;
+    background:#d600ff;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+}
+
+footer{
+    width:90%;
+    margin:20px auto 40px auto;
+    text-align:center;
+    font-style:italic;
+    font-family:"Courier New",Monospace;
+    font-size:0.8rem;
+    color:#d600ff;
+}
