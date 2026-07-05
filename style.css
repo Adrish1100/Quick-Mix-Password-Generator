@@ -24,18 +24,13 @@ header {
     font-size: 1.5rem;
 }
 
-input, button, div.password {
-    width: 100%;
-    max-width: 500px; 
-}
-
 input {
     width: 100%; 
     max-width: 400px;
     height: 3rem;
     border: 1px solid #d600ff; 
     border-radius: 25px;
-    background-color: #12121a;
+    background-color: #000; 
     font-size: 1rem;
     margin: 1rem auto;
     padding: 0 1rem;
@@ -67,7 +62,7 @@ div.password {
     border-radius: 12px;
     background: #9090a0; 
     margin: 1rem auto;
-    padding: 10px 15px;
+    padding: 10px 20px; 
 }
 
 span.icon {
@@ -96,12 +91,12 @@ span.accent-line {
 }
 
 span.pass {
-    text-align: center;
     font-size: 1.5rem;
     font-weight: 900;
     font-family: "Courier New", monospace;
     color: #f0f0f5;
     font-style: italic;
+    vertical-align: middle; 
 }
 
 span.copy-dots {
@@ -121,4 +116,4 @@ span.copy-dots {
     font-size: 1.2rem; 
     padding: 5px;
     color: #d600ff;
-}
+    }
