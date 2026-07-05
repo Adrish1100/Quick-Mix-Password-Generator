@@ -30,7 +30,7 @@ input {
     height: 3rem;
     border: 1px solid #d600ff; 
     border-radius: 25px;
-    background-color: #000; 
+    background-color: #1a1a25; 
     font-size: 1rem;
     margin: 1rem auto;
     padding: 0 1rem;
@@ -60,7 +60,7 @@ div.password {
     min-height: 50px;
     border: 1.5px solid #f0f0f5;
     border-radius: 12px;
-    background: #2a2a35; 
+    background: #9090a0; 
     margin: 1rem auto;
     padding: 10px 20px; 
 }
